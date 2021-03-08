@@ -79,6 +79,10 @@ img#logo {
     position: relative;
 }
 
+.dropdown_menu.display_menu {
+    display: none;
+}
+
 .dropdown_menu {
     position: absolute;
     top: 60px;
@@ -91,4 +95,16 @@ img#logo {
     line-height: 40px;
     float: none;
     width: 120px;
+}
+
+li.novita {
+    position: relative;
+}
+
+span.nuovo {
+    position: absolute;
+    bottom: 10px;
+    font-weight: bolder;
+    color: violet;
+    font-size: 10px;
 }
