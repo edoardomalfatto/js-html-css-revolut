@@ -1,0 +1,94 @@
+/* setting */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* header */
+
+header {
+    height: 80px;
+    width: 100%;
+    padding: 0 80px;
+}
+
+
+/* header right */
+
+.header_right {
+    float: left;
+}
+
+.header_right ul,
+.header_left ul {
+    list-style: none;
+}
+
+.header_right ul li,
+.header_left ul li {
+    float: left;
+    line-height: 80px;
+    padding-right: 20px;
+}
+
+li.logo {
+    padding-top: 10px;
+}
+
+img#logo {
+    height: 50px;
+}
+
+.header_right ul li a,
+.header_left ul li a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+#blue {
+    color: black;
+}
+
+
+/* header left */
+
+.header_left {
+    float: right;
+}
+
+#button a {
+    background-color: violet;
+    padding: 10px;
+    color: white;
+    border-radius: 40px;
+}
+
+
+/* menu a tendina */
+
+.con_dropdown_menu {
+    position: relative;
+}
+
+.dropdown_menu {
+    position: absolute;
+    top: 60px;
+    left: -50%;
+    padding: 0 20px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.24);
+}
+
+.con_dropdown_menu .dropdown_menu ul li {
+    line-height: 40px;
+    float: none;
+    width: 120px;
+}
